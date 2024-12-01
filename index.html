@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ง้อแฟน</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #ffe4e1;
+            color: #ff1493;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 50px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 20px;
+            color: white;
+            background-color: #ff69b4;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 20px;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>เค้าขอโทษน้าาา 🥺</h1>
+    <p>อย่าโกรธเค้าเลยนะที่รัก 💖</p>
+
+    <button id="forgiveButton">ให้อภัยแล้ว</button>
+    <button id="denyButton">ยังไม่หายโกรธ!</button>
+
+    <script>
+        document.getElementById('forgiveButton').addEventListener('click', function() {
+            alert('เย้! ขอบคุณที่ให้อภัยน้า รักที่สุดเลย! ❤️');
+        });
+
+        document.getElementById('denyButton').addEventListener('click', function() {
+            alert('เค้าขอโทษจริงๆ น้าา อย่าโกรธเค้าเลยน้า 😢');
+        });
+    </script>
+
+</body>
+</html>
